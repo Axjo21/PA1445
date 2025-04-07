@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import Square from './Square';
 import { initializeBoard, movePiece } from '../utils/chessLogic';
@@ -12,7 +12,11 @@ const Board = () => {
     const handleSquarePress = (row: number, col: number) => {
         const piece = board[row][col].piece;
         if (selectedPiece) {
-            const newBoard = movePiece(board, selectedSquare[0], selectedSquare[1], row, col);
+            const newBoard = movePiece(
+                { row: selectedSquare[0], col: selectedSquare[1] }, // From position
+                { row, col }, // To position
+                board
+            );
             setBoard(newBoard);
             setSelectedPiece(null);
             setSelectedSquare([]);

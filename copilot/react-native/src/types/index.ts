@@ -4,6 +4,8 @@ export type ColorType = 'white' | 'black';
 export interface Piece {
     type: PieceType;
     color: ColorType;
+    position: { x: number; y: number };
+    image?: string;
 }
 
 export interface SquareType {

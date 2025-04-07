@@ -1,15 +1,16 @@
 import React from 'react';
 import { TouchableOpacity, View } from 'react-native';
-import { styles } from '../styles/styles';
-import { Piece } from './Piece';
+import styles from '../styles/styles';
+import Piece from './Piece';
+import { PieceType } from '../types';
 
 interface SquareProps {
   position: string;
-  piece: string | null;
+  piece: Piece;
   onSquarePress: (position: string) => void;
 }
 
-const Square: React.FC<SquareProps> = ({ position, piece, onSquarePress }) => {
+const Square = ({ position, piece, onSquarePress }: SquareProps) => {
   const handlePress = () => {
     onSquarePress(position);
   };
@@ -17,7 +18,7 @@ const Square: React.FC<SquareProps> = ({ position, piece, onSquarePress }) => {
   return (
     <TouchableOpacity style={styles.square} onPress={handlePress}>
       <View style={styles.squareContent}>
-        {piece && <Piece type={piece} />}
+        {piece && <Piece piece={piece} onDragEnd={(draggedPiece, position) => console.log(draggedPiece, position)} />}
       </View>
     </TouchableOpacity>
   );

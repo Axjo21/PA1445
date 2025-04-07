@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { View, Image, PanResponder } from 'react-native';
-import { PieceType } from '../types';
+import { Piece } from '../types';
 
 interface PieceProps {
-  piece: PieceType;
-  onDragEnd: (piece: PieceType, position: { x: number; y: number }) => void;
+  piece: Piece;
+  onDragEnd: (piece: Piece, position: { x: number; y: number }) => void;
 }
 
-const Piece: React.FC<PieceProps> = ({ piece, onDragEnd }) => {
-  const panResponder = React.useRef(
+const Piece = ({ piece, onDragEnd }: PieceProps) => {
+  const panResponder = useRef(
     PanResponder.create({
       onStartShouldSetPanResponder: () => true,
       onMoveShouldSetPanResponder: () => true,

@@ -16,6 +16,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  squareContent: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   lightSquare: {
     backgroundColor: '#eee',
   },
