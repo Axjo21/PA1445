@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.chess.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.purple_500"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="2"
+            column="12"
+            startOffset="23"
+            endLine="2"
+            endColumn="29"
+            endOffset="40"/>
+        <entry
+            name="model"
+            string="color[teal_200(D),purple_500(D)],style[Theme_ChessGame(U)];;;;"/>
+        <location id="R.color.teal_200"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="103"
+            endLine="3"
+            endColumn="27"
+            endOffset="118"/>
+    </map>
+
+</incidents>
