@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+color colorBackground
+color colorError
+color colorPrimary
+color colorPrimaryVariant
+color colorSecondary
+color colorSurface
+color darkGray
+color lightGray
+color onBackground
+color onError
+color onPrimary
+color onSecondary
+color onSurface
+color yellowHighlight
+style Theme.ChessApp
