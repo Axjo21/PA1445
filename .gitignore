@@ -1,7 +1,9 @@
 
-open-ai/react-native-old
 copilot/react-native-old
 copilot/react-native/ReactNativeChessGameCopilot/node_modules
-
 copilot/kotlin/CopilotKotlinChess/app/build
+
 open-ai/kotlin/app/build
+open-ai/react-native-old
+
+gemini/react-native/GeminiChessRn/node_modules
