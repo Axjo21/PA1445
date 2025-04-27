@@ -7,3 +7,4 @@ open-ai/kotlin/app/build
 open-ai/react-native-old
 
 gemini/react-native/GeminiChessRn/node_modules
+gemini/kotlin/GeminiKotlinApp/app/build

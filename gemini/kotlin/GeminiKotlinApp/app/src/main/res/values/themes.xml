@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.ChessGameTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Example: Set status bar color -->
+        <!-- <item name="android:statusBarColor">@color/purple_700</item> -->
+
+        <!-- For newer APIs (v21+) -->
+        <!-- <item name="android:windowLightStatusBar">false</item> -->
+    </style>
+
+    <!-- You might also have a night theme variant in res/values-night/themes.xml -->
+    <!-- Example for values-night/themes.xml: -->
+    <!--
+    <style name="Theme.ChessGame" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">...</item>
+    </style>
+    -->
+</resources>

@@ -1,0 +1,3 @@
+
+rootProject.name = "GeminiKotlinApp" // Or whatever you named your project
+include ':app'

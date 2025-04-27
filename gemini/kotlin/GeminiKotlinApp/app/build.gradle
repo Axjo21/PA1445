@@ -1,0 +1,72 @@
+// app/build.gradle
+
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.example.chessgame' // Make sure this matches your package name
+    compileSdk 34 // Use a recent SDK, e.g., 34
+
+    defaultConfig {
+        applicationId "com.example.chessgame"
+        minSdk 24 // Minimum SDK level
+        targetSdk 34 // Target SDK level
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true // Enable Jetpack Compose
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.5.3' // Use a compatible Compose compiler version
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.12.0' // Or latest version
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2' // Or latest version
+    implementation 'androidx.activity:activity-compose:1.8.1' // Or latest version
+
+    // Jetpack Compose dependencies
+    implementation platform('androidx.compose:compose-bom:2023.10.01') // Use the Compose BOM
+    implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.ui:ui-graphics'
+    implementation 'androidx.compose.ui:ui-tooling-preview'
+    implementation 'androidx.compose.material3:material3' // Using Material 3
+
+    // Testing dependencies (optional but recommended)
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation platform('androidx.compose:compose-bom:2023.10.01') // Compose BOM for testing
+    androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
+    debugImplementation 'androidx.compose.ui:ui-tooling' // For preview and inspection
+    debugImplementation 'androidx.compose.ui:ui-test-manifest'
+}
