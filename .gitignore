@@ -12,3 +12,5 @@ gemini/kotlin/GeminiKotlinApp/app/build
 
 windsurf/react-native/WindsurfAppRN/node_modules
 windsurf/kotlin/WindsurfAppKotlin/app/build
+
+deepseek/react-native/DeepseekAppRN/node_modules
