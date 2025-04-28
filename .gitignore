@@ -8,3 +8,7 @@ open-ai/react-native-old
 
 gemini/react-native/GeminiChessRn/node_modules
 gemini/kotlin/GeminiKotlinApp/app/build
+
+
+windsurf/react-native/WindsurfAppRN/node_modules
+windsurf/kotlin/WindsurfAppKotlin/app/build
