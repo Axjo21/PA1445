@@ -4,13 +4,16 @@ copilot/react-native/ReactNativeChessGameCopilot/node_modules
 copilot/kotlin/CopilotKotlinChess/app/build
 
 open-ai/kotlin/app/build
+open-ai/react-native/ReactNativeChess/node_modules
 open-ai/react-native-old
 
 gemini/react-native/GeminiChessRn/node_modules
 gemini/kotlin/GeminiKotlinApp/app/build
 
-
 windsurf/react-native/WindsurfAppRN/node_modules
 windsurf/kotlin/WindsurfAppKotlin/app/build
 
 deepseek/react-native/DeepseekAppRN/node_modules
+deepseek/kotlin/DeepseekAppKotlin/app/build
+deepseek/kotlin-old
+

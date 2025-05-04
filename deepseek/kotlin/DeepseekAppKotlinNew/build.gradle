@@ -1,0 +1,18 @@
+buildscript {
+    ext {
+        compose_version = '1.5.4'
+        kotlin_version = '1.9.10'
+    }
+    repositories {
+        google()   // Added back
+        mavenCentral() // Added back
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    // Do not need repositories block here anymore as they're managed in settings.gradle
+}
