@@ -1,19 +1,20 @@
-package com.example.chessApp.ui
+package com.example.chessapp.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.*
+import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.unit.dp
-import com.example.chessApp.model.ChessPiece
-import com.example.chessApp.model.createInitialBoard
-import com.example.chessApp.model.isValidMove
-import com.example.chessApp.model.movePiece
+import com.example.chessapp.model.ChessPiece
+import com.example.chessapp.model.createInitialBoard
+import com.example.chessapp.model.isValidMove
+import com.example.chessapp.model.movePiece
 
 @Composable
 fun ChessBoard() {
@@ -53,8 +54,8 @@ fun ChessBoard() {
                                         },
                                         onDragEnd = {
                                             val (fromRow, fromCol) = selectedCell.value ?: return@detectDragGestures
-                                            val toRow = (draggedPosition.value.y / 50).toInt()
-                                            val toCol = (draggedPosition.value.x / 50).toInt()
+                                            val toRow = (draggedPosition.value.y / 50).toInt().coerceIn(0, 7)
+                                            val toCol = (draggedPosition.value.x / 50).toInt().coerceIn(0, 7)
                                             if (isValidMove(board.value, fromRow, fromCol, toRow, toCol)) {
                                                 board.value = movePiece(board.value, fromRow, fromCol, toRow, toCol)
                                             }

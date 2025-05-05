@@ -1,4 +1,4 @@
-package com.example.chessApp.ui.theme
+package com.example.chessapp.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable

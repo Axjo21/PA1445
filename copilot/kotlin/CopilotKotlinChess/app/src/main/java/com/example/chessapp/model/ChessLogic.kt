@@ -1,4 +1,4 @@
-package com.example.chessApp.model
+package com.example.chessapp.model
 
 data class ChessPiece(val symbol: String) {
     val isWhite: Boolean

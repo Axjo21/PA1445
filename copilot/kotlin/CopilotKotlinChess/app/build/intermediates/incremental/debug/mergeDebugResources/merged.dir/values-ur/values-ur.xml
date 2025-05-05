@@ -11,7 +11,7 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"اِن کمنگ کال"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"جاری کال"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"اِن کمنگ کال کی اسکریننگ"</string>
-    <string msgid="406453423630273620" name="close_drawer">"نیویگیشن مینو بند کریں"</string>
+    <string msgid="406453423630273620" name="close_drawer">"نیویگیشن مینیو بند کریں"</string>
     <string msgid="7573152094250666567" name="close_sheet">"شیٹ بند کریں"</string>
     <string msgid="5389587048670450460" name="collapsed">"سکیڑا گیا"</string>
     <string msgid="3499643850558715142" name="date_input_headline">"درج کردہ تاریخ"</string>
@@ -48,19 +48,20 @@
     <string msgid="8038256446254964252" name="default_error_message">"غلط ان پٹ"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"پاپ اپ ونڈو"</string>
     <string msgid="4057925834421392736" name="dialog">"ڈائلاگ"</string>
-    <string msgid="1890207353314751437" name="dropdown_menu">"ڈراپ ڈاؤن مینو"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"ڈراپ ڈاؤن مینیو"</string>
     <string msgid="5974471714631304645" name="expanded">"پھیلایا گیا"</string>
     <string msgid="6827826412747255547" name="in_progress">"پیشرفت میں"</string>
     <string msgid="7933458017204019916" name="indeterminate">"جزوی طور پر چیک کردہ"</string>
-    <string msgid="542007171693138492" name="navigation_menu">"نیویگیشن مینو"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"نیویگیشن مینیو"</string>
     <string msgid="6610465462668679431" name="not_selected">"غیر منتخب کردہ"</string>
-    <string msgid="875452955155264703" name="off">"آف ہے"</string>
-    <string msgid="8655164131929253426" name="on">"آن ہے"</string>
     <string msgid="5941395253238309765" name="range_end">"رینج کا اختتام"</string>
     <string msgid="7097486360902471446" name="range_start">"رینج کی شروعات"</string>
     <string msgid="6420018528474762666" name="search_bar_search">"تلاش کریں"</string>
     <string msgid="6043586758067023" name="selected">"منتخب کردہ"</string>
     <string msgid="3962933905051144957" name="snackbar_dismiss">"برخاست کریں"</string>
+    <string msgid="4139871816613051306" name="state_empty">"خالی ہے"</string>
+    <string msgid="5834637030682409883" name="state_off">"آف ہے"</string>
+    <string msgid="1490883874751719580" name="state_on">"آن ہے"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"+999"</string>
     <string msgid="7189888345201419934" name="suggestions_available">"تلاش کی تجاویز نیچے دستیاب ہیں"</string>
     <string msgid="2561197295334830845" name="switch_role">"سوئچ"</string>
@@ -78,6 +79,8 @@
     <string msgid="994099543833979061" name="time_picker_minute_text_field">"منٹ کے لیے"</string>
     <string msgid="7352665290700284516" name="time_picker_period_toggle_description">"قبل از دوپہر یا بعد از دوپہر منتخب کریں"</string>
     <string msgid="2232702812657998674" name="time_picker_pm">"بعد از دوپہر"</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"ٹول ٹپ"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"ٹول ٹپ دکھائیں"</string>
     <string msgid="2732804537909054941" name="tooltip_long_press_label">"ٹول ٹپ دکھائیں"</string>
     <string msgid="8191239805703103845" name="tooltip_pane_description">"ٹول ٹپ"</string>
 </resources>

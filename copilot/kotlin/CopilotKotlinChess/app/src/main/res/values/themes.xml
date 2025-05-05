@@ -1,12 +1,9 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.ChessApp" parent="Theme.Material3.DayNight">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ChessTheme" parent="android:Theme.Material.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
-        <item name="colorSecondary">@color/colorSecondary</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
 
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/colorBackground</item>

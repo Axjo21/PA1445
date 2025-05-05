@@ -1,12 +1,12 @@
-package com.example.chessApp
+package com.example.chessapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.example.chessApp.ui.ChessBoard
-import com.example.chessApp.ui.theme.ChessTheme
+import com.example.chessapp.ui.ChessBoard
+import com.example.chessapp.ui.theme.ChessTheme
 
-class ChessGameActivity : ComponentActivity() {
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

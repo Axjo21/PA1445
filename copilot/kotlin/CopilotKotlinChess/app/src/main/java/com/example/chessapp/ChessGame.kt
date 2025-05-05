@@ -1,4 +1,4 @@
-package com.example.chess
+package com.example.chessapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.*
@@ -16,7 +15,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.chess.ui.theme.ChessTheme
+import androidx.compose.material3.Text
+import com.example.chessapp.ui.theme.ChessTheme
+import com.example.chessapp.model.createInitialBoard
+import com.example.chessapp.model.isValidMove
+import com.example.chessapp.model.movePiece
 
 class ChessGame : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,55 +81,4 @@ fun ChessBoard() {
             }
         }
     }
-}
-
-fun createInitialBoard(): Array<Array<ChessPiece?>> {
-    return arrayOf(
-        arrayOf(
-            ChessPiece("R"), ChessPiece("N"), ChessPiece("B"), ChessPiece("Q"),
-            ChessPiece("K"), ChessPiece("B"), ChessPiece("N"), ChessPiece("R")
-        ),
-        Array(8) { ChessPiece("P") },
-        Array(8) { null },
-        Array(8) { null },
-        Array(8) { null },
-        Array(8) { null },
-        Array(8) { ChessPiece("p") },
-        arrayOf(
-            ChessPiece("r"), ChessPiece("n"), ChessPiece("b"), ChessPiece("q"),
-            ChessPiece("k"), ChessPiece("b"), ChessPiece("n"), ChessPiece("r")
-        )
-    )
-}
-
-fun isValidMove(board: Array<Array<ChessPiece?>>, fromRow: Int, fromCol: Int, toRow: Int, toCol: Int): Boolean {
-    // Ensure the move is within bounds
-    if (fromRow !in 0..7 || fromCol !in 0..7 || toRow !in 0..7 || toCol !in 0..7) return false
-
-    val piece = board[fromRow][fromCol] ?: return false // Ensure there is a piece to move
-    val target = board[toRow][toCol]
-
-    // Ensure the target is either empty or an enemy piece
-    if (target != null && piece.isWhite == target.isWhite) return false
-
-    // Add specific piece movement rules here (e.g., pawns, rooks, knights, etc.)
-    return true
-}
-
-fun movePiece(
-    board: Array<Array<ChessPiece?>>,
-    fromRow: Int,
-    fromCol: Int,
-    toRow: Int,
-    toCol: Int
-): Array<Array<ChessPiece?>> {
-    val newBoard = board.map { it.copyOf() }.toTypedArray()
-    newBoard[toRow][toCol] = newBoard[fromRow][fromCol]
-    newBoard[fromRow][fromCol] = null
-    return newBoard
-}
-
-data class ChessPiece(val symbol: String) {
-    val isWhite: Boolean
-        get() = symbol.uppercase() == symbol
 }
