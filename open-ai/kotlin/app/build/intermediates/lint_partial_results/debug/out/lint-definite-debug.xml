@@ -79,12 +79,12 @@
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of androidx.compose.ui:ui than 1.5.0 is available: 1.7.8">
+        message="A newer version of androidx.compose.ui:ui than 1.5.0 is available: 1.8.0">
         <fix-replace
-            description="Change to 1.7.8"
+            description="Change to 1.8.0"
             family="Update versions"
             oldString="1.5.0"
-            replacement="1.7.8"/>
+            replacement="1.8.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
             line="36"
@@ -98,12 +98,12 @@
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.5.0 is available: 1.7.8">
+        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.5.0 is available: 1.8.0">
         <fix-replace
-            description="Change to 1.7.8"
+            description="Change to 1.8.0"
             family="Update versions"
             oldString="1.5.0"
-            replacement="1.7.8"/>
+            replacement="1.8.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
             line="37"
@@ -117,12 +117,12 @@
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of androidx.compose.ui:ui-tooling than 1.5.0 is available: 1.7.8">
+        message="A newer version of androidx.compose.ui:ui-tooling than 1.5.0 is available: 1.8.0">
         <fix-replace
-            description="Change to 1.7.8"
+            description="Change to 1.8.0"
             family="Update versions"
             oldString="1.5.0"
-            replacement="1.7.8"/>
+            replacement="1.8.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
             line="38"
@@ -157,10 +157,10 @@
         severity="warning"
         message="Upgrade `androidx.compose.foundation` for keyboard and mouse support">
         <fix-replace
-            description="Change to 1.7.8"
+            description="Change to 1.8.0"
             family="Update versions"
             oldString="1.5.0"
-            replacement="1.7.8"/>
+            replacement="1.8.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
             line="40"
