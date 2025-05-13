@@ -6,13 +6,17 @@ buildscript {
     repositories {
         google()   // Added back
         mavenCentral() // Added back
+        maven { url "https://plugins.gradle.org/m2/" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.1.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.5.0.2730"
     }
 }
 
 allprojects {
     // Do not need repositories block here anymore as they're managed in settings.gradle
 }
+
+apply plugin: "org.sonarqube"

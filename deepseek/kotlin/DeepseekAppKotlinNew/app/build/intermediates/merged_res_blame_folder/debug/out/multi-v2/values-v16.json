@@ -4,7 +4,7 @@
             "outputFile": "com.example.chessgame.app-mergeDebugResources-42:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/2e37c0ed8bc86c66b0dc0e6a1f68ae10/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/689bb4274871c80062ea59ef40e14ac1/transformed/core-1.12.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

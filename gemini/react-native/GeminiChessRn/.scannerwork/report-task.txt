@@ -1,0 +1,6 @@
+projectKey=GeminiChessRn
+serverUrl=http://localhost:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9000/dashboard?id=GeminiChessRn
+ceTaskId=de0db6b4-a837-472d-a928-e06f12befe53
+ceTaskUrl=http://localhost:9000/api/ce/task?id=de0db6b4-a837-472d-a928-e06f12befe53

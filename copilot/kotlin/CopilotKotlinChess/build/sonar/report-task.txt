@@ -1,0 +1,6 @@
+projectKey=CopilotKotlinChess
+serverUrl=http://localhost:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9000/dashboard?id=CopilotKotlinChess
+ceTaskId=f5bb415c-eb52-4beb-9963-0d984a97a006
+ceTaskUrl=http://localhost:9000/api/ce/task?id=f5bb415c-eb52-4beb-9963-0d984a97a006

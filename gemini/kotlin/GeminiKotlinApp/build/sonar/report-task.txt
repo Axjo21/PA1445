@@ -1,0 +1,6 @@
+projectKey=GeminiKotlinApp
+serverUrl=http://localhost:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9000/dashboard?id=GeminiKotlinApp
+ceTaskId=c0e8e4c9-9216-4794-a0d3-d0ef05837161
+ceTaskUrl=http://localhost:9000/api/ce/task?id=c0e8e4c9-9216-4794-a0d3-d0ef05837161

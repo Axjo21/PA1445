@@ -1,0 +1,6 @@
+projectKey=ReactNativeChess
+serverUrl=http://localhost:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9000/dashboard?id=ReactNativeChess
+ceTaskId=981dc76f-177f-4a71-83e6-3daa9c89c2cf
+ceTaskUrl=http://localhost:9000/api/ce/task?id=981dc76f-177f-4a71-83e6-3daa9c89c2cf

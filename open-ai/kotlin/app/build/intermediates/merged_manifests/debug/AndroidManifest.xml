@@ -21,7 +21,6 @@
         android:extractNativeLibs="true"
         android:label="Chess Game"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.ChessGame" >
         <activity
             android:name="com.example.chess.MainActivity"

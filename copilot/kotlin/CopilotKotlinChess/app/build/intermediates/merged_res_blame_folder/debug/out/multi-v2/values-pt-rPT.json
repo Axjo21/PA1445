@@ -4,41 +4,7 @@
             "outputFile": "com.example.chessapp-mergeDebugResources-46:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
-                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/4d95060b2d7a880778902cd9360000d5/transformed/core-1.13.1/res/values-pt-rPT/values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,254,353,453,560,666,787",
-                        "endColumns": "96,101,98,99,106,105,120,100",
-                        "endOffsets": "147,249,348,448,555,661,782,883"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,11,12,64",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "573,670,772,871,971,1078,1184,6654",
-                        "endColumns": "96,101,98,99,106,105,120,100",
-                        "endOffsets": "665,767,866,966,1073,1179,1300,6750"
-                    }
-                },
-                {
-                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/d04944ee636270d16dce1b3d2a24cbf9/transformed/jetified-foundation-release/res/values-pt-rPT/values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,142",
-                        "endColumns": "86,88",
-                        "endOffsets": "137,226"
-                    },
-                    "to": {
-                        "startLines": "81,82",
-                        "startColumns": "4,4",
-                        "startOffsets": "8242,8329",
-                        "endColumns": "86,88",
-                        "endOffsets": "8324,8413"
-                    }
-                },
-                {
-                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/14e72aec06c254a7f350a6ff91111513/transformed/jetified-material3-1.1.1/res/values-pt-rPT/values-pt-rPT.xml",
+                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/9f77ead54364a5118519da5a958893be/transformed/jetified-material3-1.1.1/res/values-pt-rPT/values-pt-rPT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,41 @@
                     }
                 },
                 {
-                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/01a5260b2fd0cc4a5551d0552f85071a/transformed/jetified-ui-release/res/values-pt-rPT/values-pt-rPT.xml",
+                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/d8dffb573ac2ddb9ba4c68a8ebdb3741/transformed/core-1.13.1/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,560,666,787",
+                        "endColumns": "96,101,98,99,106,105,120,100",
+                        "endOffsets": "147,249,348,448,555,661,782,883"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,64",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "573,670,772,871,971,1078,1184,6654",
+                        "endColumns": "96,101,98,99,106,105,120,100",
+                        "endOffsets": "665,767,866,966,1073,1179,1300,6750"
+                    }
+                },
+                {
+                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/7c1e9a6a7b9d24c043780c54b3bdb06f/transformed/jetified-foundation-release/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,142",
+                        "endColumns": "86,88",
+                        "endOffsets": "137,226"
+                    },
+                    "to": {
+                        "startLines": "81,82",
+                        "startColumns": "4,4",
+                        "startOffsets": "8242,8329",
+                        "endColumns": "86,88",
+                        "endOffsets": "8324,8413"
+                    }
+                },
+                {
+                    "source": "/Users/axeljonsson/.gradle/caches/8.10/transforms/24f2fd789a9eac8242369c1203635baa/transformed/jetified-ui-release/res/values-pt-rPT/values-pt-rPT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

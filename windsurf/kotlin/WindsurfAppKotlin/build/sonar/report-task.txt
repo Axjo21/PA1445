@@ -1,0 +1,6 @@
+projectKey=WindsurfAppKotlin
+serverUrl=http://localhost:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9000/dashboard?id=WindsurfAppKotlin
+ceTaskId=f9362dd2-6776-45a1-aaaf-c21a80128d71
+ceTaskUrl=http://localhost:9000/api/ce/task?id=f9362dd2-6776-45a1-aaaf-c21a80128d71

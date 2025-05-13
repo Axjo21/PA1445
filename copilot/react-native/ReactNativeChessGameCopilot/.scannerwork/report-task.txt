@@ -2,5 +2,5 @@ projectKey=ReactNativeChessGameCopilot
 serverUrl=http://localhost:9000
 serverVersion=25.4.0.105899
 dashboardUrl=http://localhost:9000/dashboard?id=ReactNativeChessGameCopilot
-ceTaskId=ccc47208-522e-4131-acc5-069580417dcd
-ceTaskUrl=http://localhost:9000/api/ce/task?id=ccc47208-522e-4131-acc5-069580417dcd
+ceTaskId=c7159adf-6aaf-4ea0-ab9a-a698c5bc48ed
+ceTaskUrl=http://localhost:9000/api/ce/task?id=c7159adf-6aaf-4ea0-ab9a-a698c5bc48ed

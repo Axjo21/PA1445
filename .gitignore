@@ -17,3 +17,9 @@ deepseek/react-native/DeepseekAppRN/node_modules
 deepseek/kotlin/DeepseekAppKotlin/app/build
 deepseek/kotlin-old
 
+
+copilot/kotlin/CopilotKotlinChess/local.properties
+deepseek/kotlin/DeepseekAppKotlinNew/local.properties
+gemini/kotlin/GeminiKotlinApp/local.properties
+open-ai/kotlin/local.properties
+windsurf/kotlin/WindsurfAppKotlin/local.properties
